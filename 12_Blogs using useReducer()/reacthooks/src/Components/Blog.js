@@ -51,7 +51,7 @@ export default function Blog() {
 
         dispatch({ type: "ADD", blog: { title: formData.title, content: formData.content } })
         setFromData({ title: "", content: "" });
-        "Enter the Title of the Blog here.."
+        
         titleRef.current.focus();
     }
 
