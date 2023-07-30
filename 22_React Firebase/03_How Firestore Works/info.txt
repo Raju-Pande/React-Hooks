@@ -1,0 +1,1 @@
+firebase: it is two database i) RealTime database :- here data store in JSON format,  ii) Cloud firestore: here data store in document format

@@ -99,6 +99,7 @@ export default function Blog() {
             {blogs.map((blog, i) => (
                 <div className="blog" key={i}>
                     <h3>{blog.title}</h3>
+                    <hr/>
                     <p>{blog.content}</p>
 
                     <div className="blog-btn">
